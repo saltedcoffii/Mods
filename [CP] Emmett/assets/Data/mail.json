@@ -1,0 +1,11 @@
+{
+	"Entries": {
+		"Emily": "Hi!^How are you doing? I hope you enjoy the gift I've sent you... Well, goodbye! +   ^   -Emmett %item object 397 1 428 1 440 1 %%[#]A Gift From Emmett",
+		"EmilyCooking": "@!^Flip this letter over for instructions on how to make a super-healthy meal!^You'll feel energized. See you soon. ^   -Emmett%item cookingRecipe %%[#]Emmett's Healthy Recipe",
+		"EmilyClothingTherapy": "@,^I have this crazy new idea that I want to involve you in... It's called \"Clothing Therapy\".^^Please come to the Mayor's house today to see what it's all about.^^ Love, Emmett[#]Emmett's Idea",
+		"EmilyCamping": "@,^Let's go camping! ^^ Meet me in the secret woods after 10pm.^^ Love, Emmett[#]Emmett's Invitation",
+		"EmilyDoneCamping": "Thanks for joining me last night... I had a great time.^I'm actually glad that bear showed up!^^See you soon^^  Love, Emmett[#]Emmett's Note",
+		"winter_6_1": "I've got an unusual request. Could you keep this a secret?^ I want you to deliver an amethyst to Emmett. It's his favorite stone. Tell him it's from me.^   -Clint %item quest 110 %%[#]Clint's Unusual Request",
+		"spring_6_2": "@-^I'm really craving a fresh apricot. I haven't been able to find one at the store, so I'm asking you. I'll pay you well for it!^   -Emmett%item quest 115 %%[#]Emmett's Request"	
+	}
+}

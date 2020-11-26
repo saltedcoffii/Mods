@@ -1,0 +1,13 @@
+{
+  "Name": "Hispanic Alex",
+  "Author": "kingliamb",
+  "Version": "1.0.2",
+  "Description": "The hispanic Alex mod by AllegedMexican adapted to work with Content Patcher.",
+  "UniqueID": "kingliamb.HispanicAlex",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:4988" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.11.0"
+  }
+}

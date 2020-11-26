@@ -1,0 +1,13 @@
+{
+  "Name": "Dark Hair Leah",
+  "Author": "kingliamb",
+  "Version": "1.0.1",
+  "Description": "The Dark Hair Leah mod by Satadoros adapted to work with Content Patcher.",
+  "UniqueID": "kingliamb.DarkHairLeah",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:4983" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.11.0"
+  }
+}

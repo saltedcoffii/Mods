@@ -1,0 +1,95 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Alejandro (beta)": {
+			"AllowValues": "Yes, No",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Default": "No"
+		}
+	},	
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Alex",
+			"FromFile": "assets/Characters/alex-characters.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Alex",
+			"FromFile": "assets/Portraits/alex-portraits.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"FromFile": "assets/Characters/Dialogue/evelyn.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"FromFile": "assets/Characters/Dialogue/george.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"FromFile": "assets/Characters/Dialogue/haley.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"FromFile": "assets/Data/mail.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "assets/Data/npcdispositions.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"FromFile": "assets/Data/secretnotes.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"FromFile": "assets/Data/Events/farm.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"FromFile": "assets/Data/Events/saloon.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"FromFile": "assets/Data/Events/town.json",
+			"When": {
+				"Alejandro (beta)": "Yes"
+			}
+		}
+	]
+}

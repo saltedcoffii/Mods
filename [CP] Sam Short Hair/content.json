@@ -1,0 +1,47 @@
+{
+	"Format": "1.13.0",
+	"ConfigSchema": {
+		"SamStyle": {
+			"AllowValues": "1, 2, 3",
+			"Default": "2"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Sam",
+			"FromFile": "assets/sam-characters.png",
+			"When": {"SamStyle": "1"}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sam",
+			"FromFile": "assets/sam-portraits.png",
+			"When": {"SamStyle": "1"}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Sam",
+			"FromFile": "assets/sam-characters2.png",
+			"When": {"SamStyle": "2"}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sam",
+			"FromFile": "assets/sam-portraits2.png",
+			"When": {"SamStyle": "2"}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Sam",
+			"FromFile": "assets/sam-characters3.png",
+			"When": {"SamStyle": "3"}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sam",
+			"FromFile": "assets/sam-portraits3.png",
+			"When": {"SamStyle": "3"}
+		}
+	]
+}

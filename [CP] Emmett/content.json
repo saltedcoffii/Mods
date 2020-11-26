@@ -1,0 +1,213 @@
+{
+	"Format": "1.11.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Emily",
+			"FromFile": "assets/Characters/emmett-characters.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Emily",
+			"FromFile": "assets/Portraits/emmett-portraits.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"FromFile": "assets/Characters/Dialogue/Emmett.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"FromFile": "assets/Characters/Dialogue/Gus.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"FromFile": "assets/Characters/Dialogue/Haley.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"FromFile": "assets/Characters/Dialogue/Sandy.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"FromFile": "assets/Characters/Dialogue/Wizard.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHaley.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"FromFile": "assets/Data/mail.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "assets/Data/NPCDispositions.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"FromFile": "assets/Data/Quests.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/HaleyHouse",
+			"FromFile": "assets/Data/Events/HaleyHouse.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"FromFile": "assets/Data/Events/Farm.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"FromFile": "assets/Data/Events/FarmHouse.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/ManorHouse",
+			"FromFile": "assets/Data/Events/ManorHouse.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"FromFile": "assets/Data/Events/Saloon.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SandyHouse",
+			"FromFile": "assets/Data/Events/SandyHouse.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"FromFile": "assets/Data/Events/Town.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"FromFile": "assets/Data/Festivals/spring24.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"FromFile": "assets/Data/Festivals/summer11.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"FromFile": "assets/Data/Festivals/winter8.json"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/LooseSprites/junimonote.png",
+			"ToArea": { "X": 448, "Y": 212, "Width": 32, "Height": 32 }
+		},
+// Russian
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily.ru-RU",
+			"FromFile": "assets/Characters/Dialogue/Emmett.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus.ru-RU",
+			"FromFile": "assets/Characters/Dialogue/Gus.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley.ru-RU",
+			"FromFile": "assets/Characters/Dialogue/Haley.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy.ru-RU",
+			"FromFile": "assets/Characters/Dialogue/Sandy.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard.ru-RU",
+			"FromFile": "assets/Characters/Dialogue/Wizard.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley.ru-RU",
+			"FromFile": "assets/Characters/Dialogue/MarriageDialogueHaley.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail.ru-RU",
+			"FromFile": "assets/Data/mail.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions.ru-RU",
+			"FromFile": "assets/Data/NPCDispositions.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests.ru-RU",
+			"FromFile": "assets/Data/Quests.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/HaleyHouse.ru-RU",
+			"FromFile": "assets/Data/Events/HaleyHouse.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm.ru-RU",
+			"FromFile": "assets/Data/Events/Farm.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse.ru-RU",
+			"FromFile": "assets/Data/Events/FarmHouse.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/ManorHouse.ru-RU",
+			"FromFile": "assets/Data/Events/ManorHouse.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon.ru-RU",
+			"FromFile": "assets/Data/Events/Saloon.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SandyHouse.ru-RU",
+			"FromFile": "assets/Data/Events/SandyHouse.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town.ru-RU",
+			"FromFile": "assets/Data/Events/Town.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24.ru-RU",
+			"FromFile": "assets/Data/Festivals/spring24.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11.ru-RU",
+			"FromFile": "assets/Data/Festivals/summer11.ru-RU.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8.ru-RU",
+			"FromFile": "assets/Data/Festivals/winter8.ru-RU.json"
+		},
+	]
+}

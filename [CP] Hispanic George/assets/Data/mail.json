@@ -1,0 +1,8 @@
+{
+	"Entries": {
+		"George": "Found some good quality stone. ^Maybe you can build with it or something.  ^   -Jorge %item object 390 35 %%[#]A Gift From Jorge",
+		"EvelynCooking": "Dear @,^I usually don't give out my recipes... but since you've been such a sweetheart to Jorge and I, I've written this one down for you. ^   -Evelyn%item cookingRecipe %%[#]Evelyn's Recipe",
+		"summer_25_1": "To Farmer @:^My knee's acting up again, and you know what helps? ^Rubbing the darn thing with hot pepper.^ Trouble is, my supply's run dry. If you've got one to spare I'd be much obliged.^   -Jorge %item quest 105 %%[#]Jorge Needs A Pepper"
+	}
+}
+		

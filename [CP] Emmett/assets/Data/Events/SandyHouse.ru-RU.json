@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"67/m 10": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"П-покупатель?\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"Привет! Добро пожаловать в Оазис'!#$b#Хей, ты выглядишь как тот новый фермер про которого мне рассказывал Эммет!#$b#Получается... Что автобус снова работает!$h#$b#Ох, я так счастлива!$h\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"Пожалуйста, зайди сюда снова когда будешь в пустыне, Здесь тааак скучно.\""
+	}
+}

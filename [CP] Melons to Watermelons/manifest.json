@@ -1,0 +1,13 @@
+{
+  "Name": "Melons to Watermelons",
+  "Author": "kingliamb",
+  "Version": "1.0.2",
+  "Description": "Changes the texture of boring, old melons to juicy, sweet watermelons. It's an obvious upgrade. zyonia's mod, now for Content Patcher!",
+  "UniqueID": "kingliamb.MelonsToWatermelons",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:5546" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.13.0"
+  }
+}

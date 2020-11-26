@@ -1,0 +1,47 @@
+{
+  "Format": "1.9",
+
+  "ConfigSchema": 
+		{
+		"collar":{"AllowValues": "none, red, green, blue, purple",
+			"Default": "red"},
+		"dogReplaced":{"AllowValues": "dog, dog1, dog2",
+			"Default": "dog"},
+		},
+
+  "Changes": [
+
+// Dog sprites
+        {
+		"Action": "Load",
+		"Target": "Animals/{{dogReplaced}}",
+		"FromFile": "assets/dog_{{collar}}.png"
+        },
+
+// Dog head in iventory
+        {
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{collar}}.png",
+		"ToArea": { "X": 208, "Y": 209, "Width": 15, "Height": 14 },
+		"When": {"dogReplaced": "dog" },
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{collar}}.png",
+		"ToArea": { "X": 224, "Y": 209, "Width": 15, "Height": 14 },
+		"When": {"dogReplaced": "dog1" },
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{collar}}.png",
+		"ToArea": { "X": 240, "Y": 209, "Width": 15, "Height": 14 },
+		"When": {"dogReplaced": "dog2" },
+		},
+	]
+}

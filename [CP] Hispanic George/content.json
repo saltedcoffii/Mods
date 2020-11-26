@@ -1,0 +1,111 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Jorge (beta)": {
+			"AllowValues": "Yes, No",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Default": "No"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/George",
+			"FromFile": "assets/Characters/george-characters.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/George",
+			"FromFile": "assets/Portraits/george-portraits.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"FromFile": "assets/Characters/Dialogue/evelyn.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"FromFile": "assets/Characters/Dialogue/george.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"FromFile": "assets/Characters/Dialogue/harvey.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogye/Penny",
+			"FromFile": "assets/Characters/Dialogue/penny.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"FromFile": "assets/Characters/Dialogue/rainy.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"FromFile": "assets/Data/mail.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "assets/Data/npcdispositions.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests.json",
+			"FromFile": "assets/Data/quests.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"FromFile": "assets/Data/Events/farm.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/JoshHouse",
+			"FromFile": "assets/Data/Events/joshhouse.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"FromFile": "assets/Data/Festivals/winter8.json",
+			"When": {
+				"Jorge (beta)": "Yes"
+			}
+		}
+	]
+}

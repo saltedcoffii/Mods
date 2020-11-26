@@ -1,0 +1,600 @@
+﻿{
+	"Format": "1.4",
+
+
+	"ConfigSchema":
+	{
+		"Choose your skin tone. See graphic included for available skin tones.":
+		{
+			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 12, 15, 22, 24"
+		},
+		"Choose One. cut, uncut, Alex, monster":
+		{
+			"AllowValues": "cut, uncut, Alex, monster"
+		},
+	},
+
+
+	"Changes": [
+	
+	//Normal
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/farmer_base",
+		"FromFile": "assets/farmer_base.png",
+		"When":
+		{
+			"Choose One. cut, uncut, Alex, monster": "cut, uncut"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/farmer_base",
+		"FromFile": "assets/farmer_basem.png",
+		"When":
+		{
+			"Choose One. cut, uncut, Alex, monster": "Alex, monster"
+		}
+	},
+	
+	//Bald
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/farmer_base_bald",
+		"FromFile": "assets/farmer_base_bald.png",
+		"When":
+		{
+			"Choose One. cut, uncut, Alex, monster": "cut, uncut"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/farmer_base_bald",
+		"FromFile": "assets/farmer_base_baldm.png",
+		"When":
+		{
+			"Choose One. cut, uncut, Alex, monster": "Alex, monster"
+		}
+	},
+	
+	
+	//1Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants1.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "1",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//1Uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants1uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "1",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//1Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants1m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "1",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//1AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants1a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "1",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//2Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants2.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "2",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//2uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants2uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "2",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//2Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants2m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "2",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//2AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants2a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "2",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//3Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants3.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "3",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//3UnCut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants3uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "3",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//3Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants3m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "3",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//3AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants3a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "3",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//4Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants4.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "4",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//4uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants4uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "4",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//4Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants4m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "4",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//4AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants4a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "4",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//5Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants5.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "5",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//5uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants5uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "5",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//5Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants5m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "5",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//5AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants5a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "5",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//6Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants6.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "6",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//6unCut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants6uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "6",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//6Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants6m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "6",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//6AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants6a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "6",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//7Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants7.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "7",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//7uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants7uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "7",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//7Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants7m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "7",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//7AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants7a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "7",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//8Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants8.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "8",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//8unCut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants8uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "8",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//8Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants8m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "8",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//8AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants8a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "8",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//12Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants12.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "12",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//12unCut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants12uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "12",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//12Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants12m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "12",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//12AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants12a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "12",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//15Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants15.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "15",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//15unCut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants15uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "15",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//15Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants15m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "15",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//15AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants1a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "15",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//22Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants22.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "22",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//22uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants22uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "22",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//22Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants22m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "22",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//22AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants22a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "22",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//24Cut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants24.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "24",
+			"Choose One. cut, uncut, Alex, monster": "cut"
+		}
+	},
+	//24uncut
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants24uc.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "24",
+			"Choose One. cut, uncut, Alex, monster": "uncut"
+		}
+	},
+	//24Monster
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants24m.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "24",
+			"Choose One. cut, uncut, Alex, monster": "monster"
+		}
+	},
+	//24AlexSized
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/pants",
+		"FromFile": "assets/pants24a.png",
+		"When":
+		{
+			"Choose your skin tone. See graphic included for available skin tones.": "24",
+			"Choose One. cut, uncut, Alex, monster": "Alex"
+		}
+	},
+	//Get rid of that shirt, boi!
+	{
+		"Action": "Load",
+		"Target": "Characters/Farmer/shirts",
+		"FromFile": "assets/shirts.png",
+	},
+	
+
+	]
+}

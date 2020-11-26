@@ -1,0 +1,16 @@
+{
+	"Format": "1.11.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Maps/springobjects.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "TileSheets/crops",
+			"FromFile": "assets/TileSheets/crops.png"
+		}
+	]
+}
+			

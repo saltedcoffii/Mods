@@ -1,0 +1,26 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [1.1.2] - Unreleased
+### Changed
+- Updated to latest version of Content Patcher
+- Updated README.txt
+
+## [1.1.1] - 2020-01-12
+### Fixed
+- Some pretty serious bugs involving Sam's sprite and portrait -- Thank you to dexnola for reporting these!
+
+## [1.1.0] - 2020-01-05
+### Added
+- Two new Sam sprite and portrait options, one by thalabee and the other partially by thalabee.
+- README.txt to explain the use of config.json
+- This changelog.txt file
+### Changed
+- Updated manifest.json
+
+## [1.0.1] - 2019-12-17
+### Changed
+- Updated to Content Patcher version 1.11.0
+
+## [1.0.0] - 2019-12-13
+- Uploaded mod!

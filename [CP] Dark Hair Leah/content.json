@@ -1,0 +1,42 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Clothing": {
+			"AllowValues": "Original, Revealing, Bra",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Default": "Original"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/leah-characters.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/leah-portraits.png",
+			"When": {
+				"Clothing": "Original"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/leah-revealing-portraits.png",
+			"When": {
+				"Clothing": "Revealing"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/leah-bra-portraits.png",
+			"When": {
+				"Clothing": "Bra"
+			}
+		}
+	]
+}

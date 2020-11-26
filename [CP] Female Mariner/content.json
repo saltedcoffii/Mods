@@ -1,0 +1,22 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Ghostly": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Mariner",
+			"FromFile": "assets/mariner.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Mariner",
+			"FromFile": "assets/mariner-ghostly.png",
+			"When": {"Ghostly": "true"}
+		}
+	]
+}

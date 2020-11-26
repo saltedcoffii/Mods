@@ -1,0 +1,13 @@
+{
+  "Name": "Shane Brown Jacket",
+  "Author": "kingliamb",
+  "Version": "1.0.0",
+  "Description": "The Shane Brown Jacket mod by GeminiBird adapted to work with Content Patcher.",
+  "UniqueID": "kingliamb.ShaneBrownJacket",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.11.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Wizard to Witch",
+   "Author": "Lineyakitty",
+   "Version": "1.2",
+   "Description": "Changes references to the Wizard to the Witch",
+   "UniqueID": "Lineyakitty.WitchEdit", 
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3205" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

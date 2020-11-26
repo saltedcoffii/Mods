@@ -1,0 +1,16 @@
+{
+	"Fields": {
+		"101/f Clint 1500/e 97/k 2123243/k 2123343/o Emily/t 900 1830/a 0 90": {
+			"17": "speak Clint \"I was planning to ask Emmett on a date. I was at his doorstep and everything... but then I heard him coming and I dove into this bush.$s#$b#Now I'm waiting until he's done talking with Caroline so I can sneak back into my house.$s\"",
+			"24": "speak Clint \"What did you just say? You'll never upgrade your tools again if I don't ask him out?$s\"",
+			"34": "speak Clint \"Um... Emmett?\""
+		},
+		"831125/f Shane 1750/f Clint 500/f Emily 500/t 1000 1600/w sunny": {
+			"24": "speak Clint \"It's hard to remember my lines when his face is right in front of me like that...$s\"",
+			"40": "speak Shane \"Hey! I want you to be in this shot... okay?#$b#Just walk by Clint and Emmett in the background while they're talking... It'll give the scene a little more authenticity.\""
+		},
+		
+					
+					
+	}
+}

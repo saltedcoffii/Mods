@@ -1,0 +1,127 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Hair": {
+			"AllowValues": "Ginger, Black",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Default": "Ginger"
+		},
+		"Accessories": {
+			"AllowValues": "Blackshirt, Greenshirt, Blackshirt-Necklace, Normal, VNeck",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Default": "Normal"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/black-blackshirt.png",
+			"When": {
+				"Hair": "Black",
+				"Accessories": "Blackshirt"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/black-blackshirt-necklace.png",
+			"When": {
+				"Hair": "Black",
+				"Accessories": "Blackshirt-Necklace"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/black-greenshirt.png",
+			"When": {
+				"Hair": "Black",
+				"Accessories": "Greenshirt"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/black-vneck.png",
+			"When": {
+				"Hair": "Black",
+				"Accessories": "VNeck"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/ginger-blackshirt.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "Blackshirt"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/ginger-blackshirt-necklace.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "Blackshirt-Necklace"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/ginger-greenshirt.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "Greenshirt"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/ginger-normal.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "Normal"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/ginger-vneck.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "VNeck"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Sebastian",
+			"FromFile": "assets/Characters/ginger.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "Blackshirt, Blackshirt-Necklace, Normal"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Sebastian",
+			"FromFile": "assets/Characters/ginger-greenshirt.png",
+			"When": {
+				"Hair": "Ginger",
+				"Accessories": "Greenshirt, VNeck"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Sebastian",
+			"FromFile": "assets/Characters/black-greenshirt.png",
+			"When": {
+				"Hair": "Black",
+				"Accessories": "Greenshirt, VNeck"
+			}
+		}
+	]
+}

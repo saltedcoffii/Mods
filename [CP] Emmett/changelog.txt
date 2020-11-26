@@ -1,0 +1,65 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2020-03-00
+### Added
+- Russian translation by DanyaKirichenko1 - Thank you so much for doing that! If anyone else wants to translate, PM me on Nexus.
+### Notes
+- Out of beta!
+
+## [0.1.5-beta] - 2019-12-30
+### Fixed
+- Reverted to update 0.1.2-beta
+
+## [0.1.4-beta] - 2019-12-29
+### Fixed
+- Bugs involving Saloon.json and SandyHouse.json. Thank you so much gizmonic for catching this and letting me know!
+
+## [0.1.3-beta] - 2019-12-27
+### Changed
+- All assets/*/*.json files now uses field "Fields" instead of "Entries" where applicable (excluding assets/Data/Events/Town.json)
+- More compatibility with other dialogue mods!
+### Note
+- There are going to be new bugs in this update that weren't in past updates. Please report all bugs found to nexusmods.com/stardewvalley/mods/4867?tab=bugs. Catch a bug, get mentioned in the changelog!
+
+## [0.1.2-beta] - 2019-12-25
+### Fixed
+- A bug involving the wizard (no spoilers here!)
+
+## [0.1.1-beta] - 2019-12-22
+### Changed
+- Updated to Content Patcher 1.11.0
+- Mod re-uploaded due to confusion relating to permissions
+### Fixed
+- Emily's picture in the Community Center's Dye Bundle now shows Emmett
+- More bugfixes where Emmett is referred to as Emily
+- Notification to update mod from SMAPI when there wasn't an update (Finally!)
+
+## [0.1.0-beta] - 2019-12-14
+### Added
+- A little more compatibily with other content patcher mods
+### Removed
+- Error message about Data/Events/Town.xnb from SMAPI when game starts
+### Fixed
+- Events in Data/Events/Town.xnb is now modified properly
+### Fixed?
+- Notification to update mod from SMAPI when there wasn't an update (Note -- This bug wasn't fixed in the update and I don't know how to fix it. If anyone knows, let me know please, and get mentioned in the changelog!)
+### Note
+- Please report all bugs found to nexusmods.com/stardewvalley/mods/4867?tab=bugs. Catch a bug, get mentioned in the changelog!
+
+## [0.0.2-beta] - 2019-12-13
+### Added
+- manifest.json now communicates a working Nexus update link to SMAPI
+### Changed
+- Cleaned up content.json by adding .json files under "assets" folder
+- manifest.json updated to current version
+### Fixed
+- Outdated dictionary keys and definitions (From older versions of Stardew Valley)
+- Bugs where Emmett was referred to as Emily or townspeople used the wrong pronouns
+- Places where speech didn't make sense. "dress" was changed to "shirt" or "girls" to "people".
+### Note
+- Please report all bugs found to nexusmods.com/stardewvalley/mods/4867?tab=bugs. Catch a bug, get mentioned in the changelog!
+
+## [0.0.1-beta] - 2019-12-12
+### Added
+- CP version of Girafig's Emmett - Male Emily Mod

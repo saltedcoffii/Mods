@@ -1,0 +1,11 @@
+{
+   "Name": "BerneseMountainDog",
+   "Author": "Gweniaczek",
+   "Version": "1.2",
+   "Description": "Bernese Mountain Dog for ContentPatcher",
+   "UniqueID": "Gweniaczek.BerneseMountainDog",
+   "UpdateKeys": ["Nexus:1848"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,37 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Brown-Jacket": {
+			"AllowValues": "True, False",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Default": "True"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Shane",
+			"FromFile": "assets/Characters/shane-jacket.png",
+			"When": {
+				"Brown-Jacket": "True"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/shane-jacket.png",
+			"When": {
+				"Brown-Jacket": "True"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Characters/shane-pants.png",
+			"When": {
+				"Brown-Jacket": "False"
+			}
+		}
+	]
+}
