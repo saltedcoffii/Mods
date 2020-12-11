@@ -1,7 +1,7 @@
 {
   "Format": "1.9",
 
-  "ConfigSchema": 
+  "ConfigSchema":
 		{
 		"collar":{"AllowValues": "none, red, green, blue, purple",
 			"Default": "red"},
